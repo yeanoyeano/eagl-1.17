@@ -26,7 +26,10 @@
 					window.eaglercraftXOpts = {
 						demoMode: false,
 						container: "game_frame",
-						assetsURI: "assets.epw",
+						// Bump ?v= on every assets.epw rebuild. bootstrap.js fetches the
+						// bundle with cache:"force-cache", so without a new URL a returning
+						// visitor keeps the copy already in their browser cache forever.
+						assetsURI: "assets.epw?v=2",
 						worldsDB: "worlds",
 						servers: [
 							/* example: { addr: "ws://localhost:8081/", name: "Local test server" } */
