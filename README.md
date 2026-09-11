@@ -4,7 +4,7 @@ This project is a version of eaglercraftX based on Minecraft 1.12, specifically 
 
 ## Key Features
 
-* **Version 1.12:** Built upon the core features of Minecraft version 1.12.
+* **Fake version 1.17:** Built upon the core features of Minecraft version 1.12.
 * **Performance Focused:** Engineered for enhanced performance and efficiency.
 
 ## License
